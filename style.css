@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+.header h2 {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 1rem;
+    color: #aaaaaa;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.current-blinds {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.time {
+    font-size: 6rem;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.next-level-section {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.next-blinds {
+    font-size: 1.5rem;
+    color: #dddddd;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #444444;
+}
+
+#play-pause-btn {
+    background-color: #4caf50;
+    width: 150px;
+    font-weight: bold;
+}
+
+#play-pause-btn:hover {
+    background-color: #45a049;
+}
+
+#play-pause-btn.paused {
+    background-color: #f44336;
+}
+
+#play-pause-btn.paused:hover {
+    background-color: #da190b;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas Hold'em Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Level <span id="level-display">1</span></h2>
+        </div>
+        
+        <div class="blinds-section">
+            <div class="label">Blinds (SB / BB)</div>
+            <div class="current-blinds" id="blinds-display">1 / 2</div>
+        </div>
+
+        <div class="timer-section">
+            <div class="time" id="time-display">07:00</div>
+        </div>
+
+        <div class="next-level-section">
+            <div class="label">Next Level</div>
+            <div class="next-blinds" id="next-blinds-display">2 / 4</div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn" title="前のレベルへ">◀</button>
+            <button id="play-pause-btn">Play</button>
+            <button id="next-btn" title="次のレベルへ">▶</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
